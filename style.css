@@ -2,27 +2,49 @@
 
 /*----------------------------------------------Html*/
 html, body {
+    overflow-x: hidden;
     height: 100%;
     width: 100%;
-    font-family: "poppins", sans-serif;
+    font-family: "Exo", sans-serif;
     color: #000000;
 }
 /*----------------------------------------------Navbar*/
+ 
+
 
 .navbar {
+    text-transform: uppercase;
     padding: .6rem;
-    
+}
+
+.navbar-brand img {
+    height: 4rem;
 }
 
 .navbar-nav li {
-     padding-right: 20px;
+     padding-right: 8px;
+    
 }
+
+
 
 .nav-link {
     font-size: 1.1em !important;
     font-style: normal;
 }
 
+.nav-item {
+    font-size: 1em;
+    
+}
+
+
+.dropdown-item:hover {
+    color: #00ced1;
+}
+
+    
+}
 /*----------------------------------------------Carousel*/
 
 .carousel-inner img {
@@ -32,7 +54,7 @@ html, body {
 
 .carousel-caption {
     position: absolute;
-    top:60%;
+    top:30%;
     transform: translateY(-0,5%);
 }
 
@@ -41,6 +63,10 @@ html, body {
     text-transform: uppercase;
     text-shadow: 1px 1px 10px #000;
     color: #f4f4f4;
+}
+
+.carousel-caption .btn {
+    background-color: #87cefa;
 }
 
 /*----------------------------------------------Section*/
