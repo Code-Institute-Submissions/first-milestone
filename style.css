@@ -30,7 +30,7 @@ html, body {
 
 .nav-link {
     font-size: 1.1em !important;
-    font-style: normal;
+    font-style: normal
 }
 
 .nav-item {
@@ -59,11 +59,15 @@ html, body {
 }
 
 .carousel-caption h1 {
+    text-align: center;
     font-size: 300%;
     text-transform: uppercase;
     text-shadow: 1px 1px 10px #000;
     color: #f4f4f4;
+    margin-top: 25px;
 }
+
+
 
 .carousel-caption .btn {
     background-color: #87cefa;
@@ -81,14 +85,19 @@ html, body {
 }
 
 
+    
+
 .quotes .page-header {
     margin-bottom: 25px;
 }
 
-.jumbotron {
+.jumbotron  {
     padding: 1rem;
     border-radius: 0;
+   
 }
+
+
 
 .padding {
     padding-bottom: 2rem;
@@ -170,6 +179,8 @@ footer {
 }
 
 
+
+
 /*----------------------------------------------media queries*/
 @media (max-width:992px) {
     .social a {
@@ -196,6 +207,7 @@ footer {
 .carousel-control-next {
     display: none;
 }
+
 
 .
 /*-@media* (sm)devices-Phones->(min-width:576px) (md) tablets (min-width:768px) (lg) desktop (min-width:992px) (xl) (min-width:1200px) /
