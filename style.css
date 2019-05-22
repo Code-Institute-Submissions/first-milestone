@@ -62,7 +62,7 @@ body {
 
 .carousel-caption h1 {
     text-align: center;
-    font-size: xx-large;
+    font-size: xxx-large;
     text-transform: uppercase;
     text-shadow: 1px 1px 10px #000;
     color: #f4f4f4;
@@ -120,7 +120,7 @@ p.card-text {
 
 
 .padding {
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
 }
 
 .welcome {
@@ -136,6 +136,16 @@ p.card-text {
     margin-top: .3rem;
     margin-bottom: 1rem;
 }
+
+img.rounded-circle.mr-3 {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    margin-bottom: 24px;
+}
+
 
 /*----------------------------------------------Social / colors*/
 
@@ -213,6 +223,7 @@ footer {
 
 
 
+
 /*----------------------------------------------media queries*/
 
 @media (max-width:992px) {
@@ -220,13 +231,17 @@ footer {
         font-size: 2em;
         padding: 1rem;
     }
-}
+        }
 
 @media (max-width:768px) {
     .carousel-caption h1 {
         top: 150%;
-
+        font-size: x-large;
     }
+
+.embed-responsive-item {
+    font-size: medium;
+}
 
     .display-4 {
         font-size: 200%;
@@ -236,11 +251,16 @@ footer {
         .carousel-caption h1 {
             top: 70%;
         }
+        
+     
+
 
         .carousel-control-prev,
         .carousel-control-next {
-            display: none;
+            display: !important;
         }
+        
+     
 
 
         .
