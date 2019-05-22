@@ -84,56 +84,83 @@
 
 
 
-<footer>
-    <div class="container-wrapper container-wrapper">
-        <div class="container feature-container content-container">
-            <section class="feature">
-                <div class="row">
-                    <div class="col-12 page-header">
-                        <h2 class="text-uppercase" id="info">Aditional Info
-                            <h2>
-                                <hr class="block-divider block-divider--short block-divider--white">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="feature">
-                            <h3>Contac Us</h3>
-                            <p>555-555-545</p>
-                            <p>myfirstmilestone@codeistitute.com</p>
-                            <p>10 Av.Park</p>
-                            <p>Co. Dublin</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="feature">
-                            <h3>Timetable</h3>
-                            <p>Gym Open Monday to Sunday: 6am-10pm </p>
-                        </div>
-                    </div>
-                    <div class="col-12 d-md-none d-lg-block col-lg-4">
-                        <div class="feature">
-                            <h3>Music</h3>
-                            <p>Enjoy our motivational playlist.</p>
-                            <p><a class="btn btn-sm btn-light" href="">Click Bellow<a/></p>
-										<div class="col-12 d-md-none d-lg-block col-lg-4"></div>
-										<audio controls>
-               <source src="Best Fitness & Trainings Music 2018.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-               </audio>
-               </div>
-                </div>
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Sign Up to Whiskey Drop!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" class="form-control" id="password" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="repeatPassword">Repeat Password</label>
+    <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+  </div>
+  <button type="submit" class="btn btn-success">Submit</button>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+			<div class="row">
+            <div class="col-12">
+                <section class="callout jumbotron text-center">
+                    <h1 class="jumbotron-header" id="sign">Be part of our Family</h1>
+                    <hr class="block-divider block-divider--short">
+                    <p class="lead">Sign up today and start changing your life style.
+                        <s class="d-none d-sm-inline">€29.99</s>
+                        <span class="d-inline d-sm-none"><br></span>
+                        <strong><mark>Now €19.99</mark></strong></p>
+                    <p><button class="btn btn-lg btn-success" data-toggle="modal" data-target="#signUpModal">Sign Up!</button></p>
+                    <p class="text-muted"><small>Bring a friend with you!</small></p>
+                </section>
             </div>
-            </div>
-        </section>
         </div>
-        </div>
-        <!-- /Features -->
-        
-        
-        </footer>
-        
-        <hr class="light">
-			<hr class="light">
-			<div class="footer-copyright text-center py-3"><h5>© 2019 BeneFITness</h5>
-						</div>
+    </div>
+
+  <div class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Be a Member!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+     <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" class="form-control" id="password" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="repeatPassword">Repeat Password</label>
+    <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+  </div>
+  <button type="submit" class="btn btn-success">Submit</button>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+  
