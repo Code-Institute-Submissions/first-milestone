@@ -12,9 +12,10 @@
 </head>
 
 <body>
+	<!-- Navbar -->
 	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="#"> <img src="images/BeneFITness.png"></a>
+			<a class="navbar-brand" href="#"> <img src="images/BeneFITness.png" alt="gym"></a>
 			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria label="Togglenavigation">
             <span class="navbar-toggler-icon"></span></button>
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -24,7 +25,6 @@
 					</li>
 					<li class="nav-item active">
 						<a class="nav-link" href="#personal">Services</a>
-					</li>
 					</li>
 					<li class="nav-item active">
 						<a class="nav-link" href="#FollowUs">About Us</a>
@@ -39,14 +39,16 @@
 			</div>
 		</div>
 	</nav>
-	<!-- Callout -->
+	<!-- /Navbar -->
+	
+	<!-- Callout/Carousel -->
 	<div id="slides" class="carousel slide" data-ride="carousel" data-interval="70000">
 		<ul class="carousel-indicators">
 			<li data-target="#slides" data-slide-to="0" class="active"></li>
 			<li data-target="#slides" data-slide-to="1"></li>
 			<li data-target="#slides" data-slide-to="2"></li>
 		</ul>
-		<div class="carousel-inner" id="top">
+	<div class="carousel-inner" id="top">
 			<div class="carousel-item active">
 				<div class="carousel-caption text-center">
 					<h1>Welcome to BeneFITness</h1>
@@ -96,7 +98,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- /Callout -->
+	<!-- /Callout/Carousel -->
 	<hr>
 
 	<div class="container-fluid padding">
@@ -112,7 +114,7 @@
 		<div class="row padding">
 			<div class="col-md-4">
 				<div class="card">
-					<img class="card-img-top" width="100" height="300" src="images/personal1.jpg">
+					<img class="card-img-top" width="100" height="300" src="images/personal1.jpg" alt="personal1">
 					<div class="card-body">
 						<h4 class="card-title">John P.</h4>
 						<p class="card-text">John can create personalised fitness plans for clients that often includes a health and nutritional plan.</p>
@@ -122,7 +124,7 @@
 			</div>
 			<div class="col-md-4">
 				<div class="card">
-					<img class="card-img-top" width="100" height="300" src="images/personal2.jpg">
+					<img class="card-img-top" width="100" height="300" src="images/personal2.jpg" alt="personal2">
 					<div class="card-body">
 						<h4 class="card-title">Mario F.</h4>
 						<p class="card-text">Mario can motivate their clients and share fitness secrets to help them achieve their goals faster.</p>
@@ -132,7 +134,7 @@
 			</div>
 			<div class="col-md-4">
 				<div class="card">
-					<img class="card-img-top" width="100" height="300" src="images/achieve-your-goals.jpg">
+					<img class="card-img-top" width="100" height="300" src="images/achieve-your-goals.jpg" alt="personal3">
 					<div class="card-body">
 						<h4 class="card-title">Mary T.</h4>
 						<p class="card-text">Mary is an individual certified to have a varying degree of knowledge of general fitness involved in exercise prescription and instruction.</p>
@@ -143,6 +145,7 @@
 		</div>
 	</div>
 	<br>
+	<!-- Quotes -->
 	<div class="container-wrapper">
 		<div class="container quotes-container content-container">
 			<section class="quotes">
@@ -156,7 +159,7 @@
 					<div class="col-12 col-md-6">
 						<div class="media">
 							<div class="d-none d-sm-block">
-								<img src="images/Make It Fun.jpg" class="rounded-circle mr-3" height=100 width=100>
+								<img src="images/Make It Fun.jpg" alt="clients1" class="rounded-circle mr-3" height=100 width=100>
 							</div>
 							<div class="media-body">
 								<blockquote class="blockquote">
@@ -169,7 +172,7 @@
 					<div class="col-12 col-md-6">
 						<div class="media">
 							<div class="d-none d-sm-block">
-								<img src="images/Set Goals.jpg" class="rounded-circle mr-3" height=100 width=100>
+								<img src="images/Set Goals.jpg" alt="clients2" class="rounded-circle mr-3" height=100 width=100>
 							</div>
 							<div class="media-body">
 								<blockquote class="blockquote">
@@ -181,8 +184,9 @@
 					</div>
 				</div>
 			</section>
+			<!-- /Quotes -->
 			<hr class="my-4">
-
+<!-- Social -->
 			<div class="container-fluid padding" id="FollowUs">
 				<div class="row text-center padding">
 					<div class="col-12 my-5">
@@ -197,6 +201,8 @@
 					</div>
 				</div>
 			</div>
+			<!-- /Social -->
+			
 			<hr class="light">
 			<!-- Features -->
 
@@ -256,11 +262,9 @@
 					<section class="feature">
 						<div class="row">
 							<div class="col-12 page-header">
-								<h2 class="text-uppercase" id="info">Aditional Info
-									<h2>
+								<h2 class="text-uppercase" id="info">Aditional Info</h2>
 										<hr class="block-divider block-divider--short block-divider--white">
 							</div>
-						</div>
 						<div class="row">
 							<div class="col-md-4 ">
 								<div class="feature">
@@ -281,29 +285,31 @@
 								<div class="feature">
 									<h3>Music</h3>
 									<p>Enjoy our motivational playlist.</p>
-									<p><a class="btn btn-sm btn-light" href="">Click Bellow<a/></p>
-										<div class="col-12 d-md-none d-lg-block col-lg-4"></div>
-										<audio controls>
-               <source src="Best Fitness & Trainings Music 2018.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-               </audio>
+									<p><a class="btn btn-sm btn-light" href="#">Click Bellow<a/></p>
+								<div class="iframe-container">
+										<div class="col-12 d-md-none d-lg-block col-lg-4">
+										
+												
+									<iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+									</div>
                </div>
                 </div>
             </div>
             </div>
-        </section>
-        </div>
-        </div>
+            </section>
+            </div>
+            </div>
+        
         <!-- /Features -->
         
         
         </footer>
-        
+        <!-- Footer -->
         <hr class="light">
 			<hr class="light">
 			<div class="footer-copyright text-center py-3"><h5>© 2019 BeneFITness</h5>
 						</div>
-			
+			<!-- /Footer -->
 			
 		
 						   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

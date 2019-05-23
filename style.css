@@ -45,14 +45,13 @@ body {
 }
 
 
-}
-
 /*----------------------------------------------Carousel*/
 
 .carousel-inner img {
-    width: 100%;
-    max-height: 700px;
+    width: 100px;
+   height: 700px;
 }
+
 
 .carousel-caption {
     position: absolute;
@@ -74,50 +73,6 @@ body {
 .carousel-caption .btn {
     background-color: #87cefa;
 }
-
-
-
-/*----------------------------------------------Section*/
-
-.page-header {
-    margin-bottom: 0;
-    border-bottom: 0;
-    text-align: center;
-}
-
-.page-header h2 {
-    margin-top: 0;
-}
-
-
-.quotes .page-header {
-    margin-bottom: 25px;
-}
-
-.card-body {
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    padding: 1.25rem;
-    max-height: 195px;
-}
-
-p.card-text {
-    /* font-size: small; */
-    max-height: 50px;
-    overflow-y: scroll;
-}
-
-
-/*----------------------------------------------Jumbotron*/
-
-.jumbotron {
-    padding: 1rem;
-    border-radius: 0;
-    margin-top: 40px;
-    text-align: center;
-}
-
-
 
 .padding {
     padding-bottom: 0rem;
@@ -147,10 +102,50 @@ img.rounded-circle.mr-3 {
 }
 
 
+
+
+/*----------------------------------------------Section*/
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    max-height: 195px;
+}
+
+p.card-text {
+    /* font-size: small; */
+    max-height: 50px;
+    overflow-y: scroll;
+}
+
+/*----------------------------------------------Quotes*/
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+/*----------------------------------------------Jumbotron*/
+
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+    margin-top: 40px;
+    text-align: center;
+}
+
 /*----------------------------------------------Social / colors*/
-
-
-
 
 
 .social a {
@@ -187,12 +182,14 @@ img.rounded-circle.mr-3 {
     color: #d5d5d5;
 }
 
+/*----------------------------------------------Forms*/
+
 form {
     margin-top: 35px;
     height: 350px;
 }
 
-/*----------------------------------------------Footer*/
+/*----------------------------------------------Footer and Features*/
 
 footer {
     background-color: #f5deb3;
@@ -202,6 +199,7 @@ footer {
 .feature {
     text-align: center;
     margin-bottom: 40px;
+    background-color: #f5deb3;
 }
 
 .feature i {
@@ -226,14 +224,19 @@ h3 {
   
 
 
-/*----------------------------------------------media queries*/
+/*----------------------------------------------Media Queries*/
 
 @media (max-width:992px) {
     .social a {
         font-size: 2em;
         padding: 1rem;
     }
-        }
+    .carousel-inner img {
+    width: 100px;
+   height: 700px;
+}
+
+      
 
 @media (max-width:768px) {
     .carousel-caption h1 {
@@ -241,22 +244,25 @@ h3 {
         font-size: x-large;
     }
 
-.embed-responsive-item {
-    font-size: medium;
+.carousel-inner img {
+    width: 100px;
+   height: 500px;
 }
 
     .display-4 {
         font-size: 200%;
     }
-
+   
     @media (max-width:572px) {
         .carousel-caption h1 {
             top: 70%;
         }
         
-     
-
-
+        .carousel-inner img {
+    width: 100px;
+   height: 300px;
+}
+    
         .carousel-control-prev,
         .carousel-control-next {
             display: !important;
@@ -282,4 +288,4 @@ h3 {
 
 
         .
-        /*-@media* (sm)devices-Phones->(min-width:576px) (md) tablets (min-width:768px) (lg) desktop (min-width:992px) (xl) (min-width:1200px) /
+/*-@media* (sm)devices-Phones->(min-width:576px) (md) tablets (min-width:768px) (lg) desktop (min-width:992px) (xl) (min-width:1200px) /

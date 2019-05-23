@@ -8,21 +8,21 @@
 
 ## My Logo Image
 
-*To creat my Logo I search on Google a website to creat logo for free and made my own Logo with the name of the
+*To creat my Logo I search on Google a website to create logo for free and made my own Logo with the name of the
 gym. 
 
 ## My Images
 
-*The images for the project I searched fitness pic on Google (I know about copyright but this is for a school pro)
+*The images for the project I searched fitness pic on Google (I know about copyright but this is for a school project)
 and I downloaded for my computer to use in the project.
 
 ## My youtube video
 
-*I searched in Bootstrap4 how to put a video in my project as required, and I put a motivational video for the clientes get some inspiration.
+*I searched in Bootstrap4 how to put a video in my project as required, and I put a motivational video for the clients to get some inspiration.
 
 ## My audio
 
-*I searched in some Youtube channel how to put a audio in Bootstrap4 for my project as required, and I give this as a free space for clients listen our playlist.
+*I searched in some Youtube channel how to put a audio in Bootstrap4 for my project as required, and I gave this as a free space for clients listen our playlist.
 
 # Bootstrap4
 
