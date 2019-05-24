@@ -222,6 +222,10 @@ h3 {
     text-align: center;
 }
   
+  
+  .page-header h2 {
+      margin-top: 40px;
+  }
 
 
 /*----------------------------------------------Media Queries*/
