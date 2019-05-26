@@ -18,19 +18,19 @@ The site is made easy to navigate, the bar navigation menu shows the relevant in
  
 # Features 
 
-Home page:
+### Home page:
 
 In the Home page, users can easly find the gym purpose and mission and right after is followed by a motivational video.
 
-Services:
+### Services:
 
 In this section the users have the option to choose and to learn more about each personnal trainer that works in the gym, giving them an option to select the one that is more suitable for their specific needs.
 
-Contacts:
+### Contacts:
 
 Down the page the users can find the address, phone number, timetable, email address and links for the social media.
 
-Membership:
+### Membership:
 
 Down the page the users can sign in by giving their email address, password and submitting. A promotional monthly fee has been highlighted in order to motivate people to try the services available.
 
@@ -93,7 +93,7 @@ For milestone 1 project I used Github pages to deply my website.
 
 # Credits 
 
-## Content 
+### Content 
 
 * The content of this site was written in order to delivery of my firt milestone project for Code Institute.
 
@@ -104,7 +104,7 @@ For milestone 1 project I used Github pages to deply my website.
 
 The photos used in the __images__,__video__ and __audio__ section of this site were obtained from Google, Youtube and Spotify:
 
-* images:
+* __Images__:
 
 https://jccrockland.org/feature/personal-training-2/
 
@@ -120,11 +120,11 @@ https://wallpaperplay.com/board/boxing-gloves-wallpapers
 
 https://www.desktopbackground.org/wallpaper/gym-wallpapers-hd-download-402034
 
-* Audio:
+* __Audio__:
 
 https://developer.spotify.com/
 
-* Youtube:
+* __Youtube__:
 
 https://www.youtube.com/watch?v=wnHW6o8WMas
 
