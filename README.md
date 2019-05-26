@@ -40,7 +40,7 @@ Down the page the users can sign in by giving their email address, password and 
 
 * Social media icon buttons visible to guide users to social media site and increase traffic and following.
 
-* In my milestone project file in__GitHub__ you will find__index1.html__, this was only used as a draft!!
+* In my milestone project file in __GitHub__ you will find __index1.html__ , this was only used as a draft!!
 
 * __Best Fitness & Trainings Music 2018__ and some of the __images__ in __first-milestone__ file  are only a second option for this project and I didn't delete.
 
