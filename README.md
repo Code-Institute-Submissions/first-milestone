@@ -1,19 +1,19 @@
 # Welcome to my first milestone project! 
 
 This is my very first milestone project, named by BeneFTIness and is a Gym Website, 
-this was inspiered by the fact that I believe gym and sports are lifestyle.
+this was inspired by the fact that I believe gym and sports are lifestyle.
 
-Thinking of that, I created a website that is a user friendly easy to access and have added a component to inspire beginners'
+Thinking of that, I created a website that is a user friendly easy to access and have added a component to inspire beginners
 to get healthier and fitness.
  
  
 # UX 
 
-The UX of the site is designed to be easy to access. The site is static in line with what has been taught so far in this part of the course, HTML5 and CSS3. The idea is a user can be motivated/inspiered by the images and videos in the site which appear first followed by the offer of services of the best professional available for a reasonable monthly fee. .
+The UX of the site is designed to be easy to access. The site is static in line with what has been taught so far in this part of the course, HTML5 and CSS3. The idea is a user can be motivated/inspired by the images and videos in the site which appear first followed by the offer of services of the best professional available for a reasonable monthly fee. .
 
-The UI colors I have chosen are a light green and grey for Logo, yellow and light grey and whites for the background off whites, I feel this pallette of colours gave a clean look to the site.
+The UI colors I have chosen are a light green and grey for Logo, yellow and light grey and whites for the background, I feel this pallette of colours gave a clean look to the site.
 
-The site is made easy to navigate, the bar navigation menu shows the relevant information and services available in the gym, this feature can be seen in the mobile and tablet where all links are funcioning. 
+The site was made with a purpose of easy navigation, the bar navigation menu shows the relevant information and services available in the gym, this feature can be seen in the mobile and tablet where all links are functioning. 
  
  
 # Features 
@@ -40,9 +40,9 @@ Down the page the users can sign in by giving their email address, password and 
 
 * Social media icon buttons visible to guide users to social media site and increase traffic and following.
 
-* In my milestone project you will see __index1.html__, but was only use as a draft!!
+* In my milestone project file in__GitHub__ you will find__index1.html__, this was only used as a draft!!
 
-* __Best Fitness & Trainings Music 2018__ and some of my __images__ in __first-milestone__ file they are some of second options for this prject that I didn't delete.
+* __Best Fitness & Trainings Music 2018__ and some of the __images__ in __first-milestone__ file  are only a second option for this project and I didn't delete.
 
 
 ## Features left to implement:
@@ -52,7 +52,7 @@ Down the page the users can sign in by giving their email address, password and 
 # Technologies Used
 
 * [HTML5](https://www.w3schools.com "Named HTML5")
-This project used HTML5 to implement semantic web design markup.
+  * This project used HTML5 to implement semantic web design markup.
 * [CSS3](https://www.w3schools.com "Named CSS3")
   * I have used CSS3 for styling the site and because of CSS3 features like flexbox and grid.
 * [Bootstrap4](https://getbootstrap.com/ "Named Bootstrap4")
@@ -76,7 +76,7 @@ The main testing of this site was done to test resposiveness of the overall site
 
 ## Real Device Testing 
 
-This site has been run on the following devices on all the main browsers in use today:
+This site has been run on the following devices on all the main browsers in use:
  
 * __Samsung 9__
 
@@ -89,15 +89,15 @@ This site has been run on the following devices on all the main browsers in use 
 
 For milestone 1 project I used Github pages to deply my website. 
 
-* This site does not require any config files or environment variables to run, all scripts are inclued in the site and reference online CDN's. My Project is also supported on all browsers listed above.
+* This site does not require any config files or environment variables to run.
 
 # Credits 
 
 ### Content 
 
-* The content of this site was written in order to delivery of my firt milestone project for Code Institute.
+* The content of this site was written in order to deliver my first milestone project for Code Institute.
 
-* I have also added content that I created myself like the BeneFTIness Logo.
+* I have also created the BeneFTIness' Logo in https://www.freelogodesign.org/
  
 
 # Media
