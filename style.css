@@ -241,6 +241,8 @@ h3 {
    height: 550px;
 }
 
+  
+
       
 
 @media (max-width:768px) {
@@ -256,6 +258,11 @@ h3 {
 
     .display-4 {
         font-size: 200%;
+    }
+    
+      .card-img-top {
+         width: 100%;
+         height: 400px;
     }
     
    
@@ -275,6 +282,10 @@ h3 {
             display: !important;
         }
         
+          .card-img-top {
+         width: 100%;
+        height: 300px;
+    }
         
 .iframe-container {
     position: relative;
